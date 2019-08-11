@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>StringsTable</key>
+	<string>Root</string>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>Units</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Title</key>
+			<string>Temperature</string>
+			<key>Key</key>
+			<string>unitsSettings</string>
+			<key>DefaultValue</key>
+			<string>Celsius</string>
+			<key>Titles</key>
+			<array>
+				<string>Celsius</string>
+				<string>Fahrenheit</string>
+			</array>
+			<key>Values</key>
+			<array>
+				<real>0</real>
+				<integer>1</integer>
+			</array>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Title</key>
+			<string>Wind speed</string>
+			<key>Key</key>
+			<string>windSpeedSettings</string>
+			<key>DefaultValue</key>
+			<string>m/s</string>
+			<key>Titles</key>
+			<array>
+				<string>m/s</string>
+				<string>mph</string>
+			</array>
+			<key>Values</key>
+			<array>
+				<real>0</real>
+				<string>1</string>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>
